@@ -1,0 +1,170 @@
+"""
+- Oque é programação?
+    É a arte de passar instruções especificas para o computador.
+
+
+- Oque é um programa?
+    É um conjunto de instruções que dizem ao computador oque fazer.
+
+
+- Oque é um algoritmo?
+    É um conjunto de instruções que dizem ao computador oque fazer.
+
+    
+Oque é Python:
+    É uma linguagem de programação de alto nivel, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinamica e forte.
+
+
+-Ambienetes virtuais:
+    É um ambiente isolado do sistema operacional, onde podemos instalar pacotes e dependencias sem afetar o sistema operacional.
+    como criar ambiente virtual no python:
+    python3 -m venv nome_do_ambiente_virtual
+
+- Variaveis:
+    int : 1 , 1000, -2, -2500 ...
+    float : 1.0, 2.5, -2.5, -1.0 ...
+    str : 'a', 'b', 'c', 'd' ...
+    bool : True, False
+    list : [1, 2, 3, 4, 5]
+    tuple : (1, 2, 3, 4, 5)
+    dict : {'nome': 'joao', 'idade': 20, 'sexo': 'masculino'}
+    set : {1, 2, 3, 4, 5}    
+
+- Entrada e saida de dados:
+     A linguagem de programa recebe 
+     dados de entrada, processa esses dados 
+
+- Conversão de dados:
+    int() : converte para inteiro
+    float() : converte para float
+    str() : converte para string
+    bool() : converte para booleano
+    list() : converte para lista
+    tuple() : converte para tupla
+    dict() : converte para dicionario
+    set() : converte para conjunto
+    
+    exemplo:
+    numero = int(input('Digite um numero: '))
+    print(numero)
+
+- Operadores aritimeticos:
+    + : soma
+    - : subtração
+    * : multiplicação
+    / : divisão
+    // : divisão inteira
+    ** : potencia
+    % : resto da divisão
+
+    precedencia:
+    1 - ()
+    2 - **
+    3 - * / // %
+    4 - + -
+
+- Operadores relacionais:
+    == : igualdade
+    != : diferença
+    > : maior que
+    < : menor que
+    >= : maior ou igual que
+    <= : menor ou igual que
+
+
+- Operadores logicos: [and or not]:
+    and : e
+    or : ou
+    not : não
+
+
+
+- Estruturas condicionais: 
+    (if else elif):
+
+
+- Estruturas de repetição: (for while)
+    for : para
+    while : enquanto
+
+
+- Funções:
+    def nome_da_funcao(parametros):
+        codigo
+        return
+
+
+- Lista:
+[1, 2, 3, 4, 5]
+  
+
+- Tuplas:
+(1, 2, 3, 4, 5)
+
+
+- Dicionarios:
+{'nome': 'joao', 'idade': 20, 'sexo': 'masculino'}
+
+- Conjuntos:
+{1, 2, 3, 4, 5}
+
+
+- Modulos:
+    É um arquivo que contem varias funções que podem ser usadas em outros programas.
+    import nome_do_modulo
+    from nome_do_modulo import nome_da_funcao
+    from nome_do_modulo import nome_da_funcao as apelido
+    from nome_do_modulo import *
+    import nome_do_modulo as apelido
+    from nome_do_modulo import nome_da_funcao1, nome_da_funcao2, nome_da_funcao3
+
+
+- Pacotes:
+    É um conjunto de modulos.
+    import nome_do_pacote.nome_do_modulo
+    from nome_do_pacote.nome_do_modulo import nome_da_funcao
+    from nome_do_pacote.nome_do_modulo import nome_da_funcao as apelido
+    from nome_do_pacote.nome_do_modulo import *
+    import nome_do_pacote.nome_do_modulo as apelido
+    from nome_do_pacote.nome_do_modulo import nome_da_funcao1, nome_da_funcao2, nome_da_funcao3
+
+
+- Tratamento de erros:
+    try:
+        codigo
+    except:
+        codigo
+    else:
+        codigo
+    finally:
+        codigo
+
+
+- Arquivos:
+    open('nome_do_arquivo', 'modo_de_abertura')
+    r : leitura
+    w : escrita
+    a : adicionar
+    b : binario
+    + : atualização
+    x : criação
+
+    arquivo = open('nome_do_arquivo', 'modo_de_abertura')
+    arquivo.close()
+
+    arquivo = open('nome_do_arquivo', 'modo_de_abertura')
+    arquivo.read()
+    arquivo.readline()
+    arquivo.readlines()
+    arquivo.write('texto')
+    arquivo.writelines(['texto1', 'texto2', 'texto3'])
+    arquivo.close() 
+
+com with
+    with open('nome_do_arquivo', 'modo_de_abertura') as arquivo:
+        codigo
+
+    não tem necessida de fechar
+
+
+"""
